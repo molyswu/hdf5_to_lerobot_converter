@@ -1,0 +1,10 @@
+repo_id: "path/to/repo"
+raw_data_dir: "path/to/dataset"
+fps: 30
+resolution: [1024, 1024]
+image_writer_processes: 4
+image_writer_threads: 16
+
+# Batch processing configuration
+batch_size: 10
+validate_batch_size: true  # Set false to allow partial batches
